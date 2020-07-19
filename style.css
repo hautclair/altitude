@@ -1,0 +1,331 @@
+body {
+  background-repeat: no-repeat;;
+  background-size: cover;
+}
+
+#columnshadow {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  width: 90px;
+  height: 65px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+#header {
+  height: 58px;
+  font-family: 'Cabin Condensed', sans-serif;
+  background-color: rgb(26, 25, 26);
+  border-color: #000000;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  color: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+
+}
+
+#headerspacer {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+#headerspacer-left {
+  clear: both;
+  float: left;
+  width: 88px;
+  height: 1px;
+  background-color: rgb(26, 25, 26);
+  border-left: 1px solid #000000;
+}
+
+#headerspacer-right {
+  width: calc(100% - 90px);
+  height: 1px;
+  background-color: #000000;
+  border-right: 1px solid #000000;
+  float: left;
+}
+
+#footer {
+  width: 88px;
+  height: 5px;
+  background-color: rgb(26, 25, 26);
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+#header #encounter-icon {
+  float: left;
+  margin-left: 10px;
+  margin-top: 9px;
+  width: 41px;
+  height: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  position: relative;
+  z-index: 50;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+#header #encounter-icon img {
+  width: 41px;
+  height: 41px;
+}
+
+#header #encounter-time {
+  float: left;
+  margin-left: 8px;
+  margin-top: 6px;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#header #encounter-name {
+  float: left;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+#header #encounter-name #encmain {
+
+}
+
+#header #encounter-name #encloc {
+  color: #888888;
+}
+
+
+#header #rd {
+  float: right;
+  margin-right: 14px;
+  margin-top: 26px;
+}
+
+#header #rd #rdlabel {
+  font-size: 14px;
+}
+
+#header #rd #rdnum {
+  margin-left: 5px;
+  font-size: 20px;
+  font-family: 'Anka/Coder Narrow', sans-serif;
+}
+
+.player-simple {
+  clear: both;
+  height: 33px;
+  width: calc(100% - 5px);
+  background-color: rgba(0,0,0,0.7);
+  color: #FFFFFF;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.player-simple .player-encdps {
+  float: left;
+  background-color: rgb(26, 25, 26);
+  height: 33px;
+  width: 88px;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  position: relative;
+  z-index: 2;
+}
+
+.player-simple .player-encdps .player-encdpstext-dps {
+  margin-top: 5px;
+  font-family: 'Anka/Coder Narrow', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #FFC4C4;
+}
+
+.player-simple .player-encdps .player-encdpstext-tank {
+  margin-top: 5px;
+  font-family: 'Anka/Coder Narrow', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #C4D9FF;
+}
+
+.player-simple .player-encdps .player-encdpstext-hlr {
+  margin-top: 5px;
+  font-family: 'Anka/Coder Narrow', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #C9FFCD;
+}
+
+.player-simple .player-encdps .player-encdpstext-lb {
+  margin-top: 5px;
+  font-family: 'Anka/Coder Narrow', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(37, 153, 190);
+}
+
+.player-simple .player-info {
+  float: left;
+  width: calc(100% - 95px);
+  height: 33px;
+}
+
+.player-simple .player-info .player-job {
+  float: left;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.player-simple .player-info .player-job img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -14px;
+  left: -12px;
+  filter: invert(100%);
+}
+
+.player-simple .player-info .player-name {
+  float: left;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 8px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.player-simple .player-info .other {
+  float: right;
+  font-size: 12px;
+  padding-top: 13px;
+  padding-right: 5px;
+  color: #AAAAAA;
+}
+
+.player-dmgspacer {
+  clear: both;
+  float: left;
+  width: 88px;
+  height: 2px;
+  background-color: rgb(26, 25, 26);
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  position: relative;
+  z-index: 2;
+}
+.player-dmgbar {
+  float: left;
+  height: 2px;
+  width: calc(100% - 95px);
+}
+
+.fill-blm, .fill-thm {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(165, 121, 214);
+}
+
+.fill-dnc {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 176, 175);
+}
+.fill-mnk, .fill-pug {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(214, 156, 0);
+}
+
+.fill-sam {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(228, 109, 4);
+}
+
+.fill-nin, .fill-rog {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(175, 25, 100);
+}
+
+.fill-smn, .fill-acn {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(45, 155, 120);
+}
+
+.fill-rdm {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(232,123,123);
+}
+
+.fill-brd, .fill-arc {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(145, 186, 94);
+}
+
+.fill-mch {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(110, 225, 214);
+}
+.fill-drg, .fill-lnc {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(65, 100, 205);
+}
+
+.fill-pld, .fill-gla, .fill-gld {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(168, 210, 230);
+}
+
+.fill-war, .fill-mrd {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(207, 38, 33);
+}
+
+.fill-drk {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(209, 38, 204);
+}
+
+.fill-gnb {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(121, 109, 48);
+}
+
+.fill-sch {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(134, 87, 255);
+}
+
+.fill-ast {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 231, 74);
+}
+
+.fill-whm, .fill-cnj {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 240, 220);
+}
+
+.fill-lb {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(37, 153, 190);
+}

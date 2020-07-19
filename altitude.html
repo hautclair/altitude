@@ -1,0 +1,254 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <title>Altitude - ver 0.1.0</title>
+  <meta name="description" content="Altitude - ACT DPS Overlay for FFXIV" />
+  <meta name="author" content="Aeriality R'idyll - Sargatanas" />
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Fira+Sans+Condensed|Dosis&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="encounters.js" type="text/javascript"></script>
+  <script src="altitude.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="columnshadow">
+    </div>
+    <div id="header">
+        <div id="encounter-icon"><img src="img/enc/unknown.png" /></div>
+        <div id="encounter-time">00:00</div>
+        <div id="encounter-name"><span id="encmain">Altitude v1.0</span><br /><span id="encloc">Aeriality R'idyll - Sargatanas</span></div>
+        <div id="rd"><span id="rdlabel">RD</span><span id="rdnum">0.0</span></div>
+    </div>
+    <div id="headerspacer">
+      <div id="headerspacer-left"></div>
+      <div id="headerspacer-right"></div>
+    </div>
+    <div id="players">
+      <div id="player-container-0">
+      </div>
+      <div id="player-container-1">
+      </div>
+      <div id="player-container-2">
+      </div>
+      <div id="player-container-3">
+      </div>
+      <div id="player-container-4">
+      </div>
+      <div id="player-container-5">
+      </div>
+      <div id="player-container-6">
+      </div>
+      <div id="player-container-7">
+      </div>
+      <div id="player-container-8">
+      </div>
+
+      <div id="footer">
+      </div>
+
+      <!--<div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-dps">14.40K</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/smn.svg" />
+          </div>
+          <div class="player-name">
+            Tamamo Mae
+          </div>
+          <div class="other">
+            Akh Morn - 69245
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-smn">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-dps">13.60K</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/brd.svg" />
+          </div>
+          <div class="player-name">
+            Elsie Elsevier
+          </div>
+          <div class="other">
+            Pitch Perfect - 45948
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-brd">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-dps">13.10K</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/mnk.svg" />
+          </div>
+          <div class="player-name">
+            Chain Chain
+          </div>
+          <div class="other">
+            The Forbidden Chakra - 70459
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-mnk">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-dps">11.70K</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/drg.svg" />
+          </div>
+          <div class="player-name">
+            Sendrina Kr'sha
+          </div>
+          <div class="other">
+            High Jump - 44908
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-drg">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-tank">8532.6</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/pld.svg" />
+          </div>
+          <div class="player-name">
+            Aeriality R'idyll
+          </div>
+          <div class="other">
+            Royal Authority - 38445
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-pld">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-tank">7738.1</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/war.svg" />
+          </div>
+          <div class="player-name">
+            Lan D'aramitz
+          </div>
+          <div class="other">
+            Inner Chaos - 56532
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-war">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-hlr">6052.8</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/sch.svg" />
+          </div>
+          <div class="player-name">
+            Xaracy Thunder
+          </div>
+          <div class="other">
+            Broil III - 32494
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-sch">
+        </div>
+      </div>
+
+      <div class="player-simple">
+        <div class="player-encdps">
+          <div class="player-encdpstext-hlr">4858.3</div>
+        </div>
+        <div class="player-info">
+          <div class="player-job">
+            <img src="img/job/ast.svg" />
+          </div>
+          <div class="player-name">
+            Kobato Mae
+          </div>
+          <div class="other">
+            Malefic IV - 28692
+          </div>
+        </div>
+      </div>
+
+      <div class="player-dmgspacer">
+      </div>
+      <div class="player-dmgbar">
+        <div class="fill-ast">
+        </div>
+      </div>
+
+    </div>-->
+  </div>
+  <script type="text/javascript">
+    initSimple();
+  </script>
+</body>
+</html>
