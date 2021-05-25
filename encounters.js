@@ -58,8 +58,14 @@ _enc["Eden's Verse: Refulgence"] = "e8";
 _enc["Eden's Verse: Refulgence (Savage)"] = "e8";
 
 // Shadowbringers - Tier 3 (Eden's Promise)
+_enc["Eden's Promise: Umbra"] = "e9";
+_enc["Eden's Promise: Umbra (Savage)"] = "e9";
 _enc["Eden's Promise: Litany"] = "e10";
 _enc["Eden's Promise: Litany (Savage)"] = "e10";
+_enc["Eden's Promise: Anamorphosis"] = "e11";
+_enc["Eden's Promise: Anamorphosis (Savage)"] = "e11";
+_enc["Eden's Promise: Eternity"] = "e12";
+_enc["Eden's Promise: Eternity (Savage)"] = "e12s";
 
 // Shadowbringers - Ultimate Raids
 _enc["The Epic Of Alexander (Ultimate)"] = "tea";
