@@ -6,11 +6,16 @@ var _enc = {};
 
 // Housing Zones
 _enc["The Goblet"] = "goblet";
+_enc["The Lavender Beds"] = "lavender";
+
+// Heavensward - Main Zones
+_enc["The Dravanian Forelands"] = "drvforelands";
 
 // Stormblood - Dungeons
 _enc["The Swallow's Compass"] = "swallow";
 
 // Stormblood - Ultimate Raids
+_enc["The Unending Coil Of Bahamut (Ultimate)"] = "ucob";
 _enc["The Weapon's Refrain (Ultimate)"] = "uwu";
 
 // Shadowbringers - Main Zones
@@ -51,6 +56,10 @@ _enc["Eden's Verse: Iconoclasm"] = "e7";
 _enc["Eden's Verse: Iconoclasm (Savage)"] = "e7";
 _enc["Eden's Verse: Refulgence"] = "e8";
 _enc["Eden's Verse: Refulgence (Savage)"] = "e8";
+
+// Shadowbringers - Tier 3 (Eden's Promise)
+_enc["Eden's Promise: Litany"] = "e10";
+_enc["Eden's Promise: Litany (Savage)"] = "e10";
 
 // Shadowbringers - Ultimate Raids
 _enc["The Epic Of Alexander (Ultimate)"] = "tea";
